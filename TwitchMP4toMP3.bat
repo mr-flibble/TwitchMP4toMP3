@@ -1,0 +1,1 @@
+for %%a in (*.mp4) do "C:\Program Files\VideoLAN\VLC\vlc.exe"  "%%a" --sout=#transcode{acodec=mp3,ab=320,vcodec=dummy}:std{access="file",mux="raw",dst="%%a.mp3"} vlc://quit
