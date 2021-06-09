@@ -15,3 +15,8 @@ Steps:
 2. In folder with MP4 vods run TwitchMP4toMP3.bat
 3. Wait until VLC quit 
 4. profit
+
+
+Powershell version:
++ works on UNC paths (network shares)
++ log input + output file names with date to current folder 
