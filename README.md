@@ -20,3 +20,6 @@ Steps:
 Powershell version:
 + works on UNC paths (network shares)
 + log input + output file names with date to current folder 
+
+Python version:
++ currently with hardcoded source path
